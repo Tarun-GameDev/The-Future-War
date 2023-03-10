@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9119382092856748655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9119382092856748653}
+  - component: {fileID: 9119382092856748652}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9119382092856748653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9119382092856748655}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9119382092856748652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9119382092856748655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240b21e35183b914a90292ec440a2fd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Shoot01
+    clip: {fileID: 8300000, guid: ad4db710e8592ae489c79e77067a1975, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    SpatialBlend: 0
+    source: {fileID: 0}
+  - name: Shoot02
+    clip: {fileID: 8300000, guid: 3618f4ed5ad7c994dbb637a977e960f2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    SpatialBlend: 0
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: 6fd92411918b40b43b5e6f5711808dcf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    SpatialBlend: 0
+    source: {fileID: 0}
+  - name: Heal
+    clip: {fileID: 8300000, guid: 32f7869d69e8fdf4f86f0636d979b64d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    SpatialBlend: 0
+    source: {fileID: 0}
+  - name: Emergency
+    clip: {fileID: 8300000, guid: e34db8800ccd0c349b869b34b362bceb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    SpatialBlend: 0
+    source: {fileID: 0}
+  - name: Dead
+    clip: {fileID: 8300000, guid: e11e75d2010e5e6478b159ca231d52a4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    SpatialBlend: 0
+    source: {fileID: 0}
+  - name: MissileExplosion
+    clip: {fileID: 8300000, guid: 2d48e27a4b24192448401b9284f9dcf7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    SpatialBlend: 0
+    source: {fileID: 0}
